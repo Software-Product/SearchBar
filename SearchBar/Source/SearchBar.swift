@@ -137,7 +137,7 @@ open class SearchBar: UIView, UITextFieldDelegate {
         let views = ["textField": textField]
 
         let horizontalFormat = "H:|-\(textFieldInsets.left)-[textField]-\(textFieldInsets.right)-|"
-        let verticalFormat = "V:|-\(textFieldInsets.top)-[textField]-\(textFieldInsets.bottom)-|"
+        let verticalFormat = "V:|-\(textFieldInsets.top)-[textField(==30)]-\(textFieldInsets.bottom)-|"
 
         let leftRightConstraints = NSLayoutConstraint.constraints(withVisualFormat: horizontalFormat,
                                                                   options: [],
