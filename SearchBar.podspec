@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SearchBar'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'search bar ui component'
   s.homepage         = 'https://github.com/Software-Product/SearchBar.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
