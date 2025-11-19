@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SearchBar'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'search bar ui component'
-  s.homepage         = 'https://github.com/FabitMobile/SearchBar.git'
+  s.homepage         = 'https://github.com/Software-Product/SearchBar.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fabit_mobile' => 'aleksandr.zherebtsov@gorparkovki.ru' }
-  s.source           = { :git => 'https://github.com/FabitMobile/SearchBar.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Software-Product/SearchBar.git', :tag => s.version.to_s }
   s.swift_version     = '5.2'
   s.ios.deployment_target = '9.0'
 
